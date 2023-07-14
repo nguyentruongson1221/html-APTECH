@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            margin: 100px 500px;
+            width: 500px;
+        }
+        input{
+            width: 100%;
+            margin: 10px 0;
+            height: 25px;
+            border-radius: 5px;
+        }
+        select{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+        }
+        form{
+            padding:20px;
+            background-color: lightgray;
+        }
+        #fsubmit{
+            width: 100px;
+            color:white;
+            background-color: green;
+        }
+    </style>
+</head>
+<html>
+<body>
+
+<form action="/action_page.php">
+  <label for="fname">Họ và tên:</label><br>
+  <input type="text" id="fname" placeholder="Họ và tên"><br>
+  <label for="femail">Email:</label>
+  <input type="email" id="femail" placeholder="Email">
+  <label for="fselect">Chủ đề quan tâm</label>
+  <select id="fselect">
+    <option>HTML & CSS</option>
+    <option>JavaScript</option>
+  </select>
+  <label for="fcontent">Nội dung</label>
+  <input type="text" id="fcontent" placeholder="Nội dung">
+  <input id="fsubmit" type="submit" value="Gửi">
+</form> 
+
+</body>
+</html>
+

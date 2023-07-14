@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        h1,h2,h3,h4,h5{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin:0 auto;
+        }
+
+        header{
+            background-color: #3d454d;
+    padding-bottom: 30px;
+    color:white;
+        }
+        main{
+            margin: 20px 0;
+        }
+        .intro{
+            border-left:3px solid gray;
+            border-right:3px solid gray;
+            border-bottom: 3px solid black;
+            border-top: 3px solid lightgray;
+        }
+        .contactPerson{
+            margin: 0 20px;
+            margin-bottom: 20px;
+            padding:10px 0;
+        }
+        button{
+            text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+        }
+        .inforPerson h5{
+            color:gray;
+            font-size: 18px;
+        }
+        .inforPerson h4{
+            font-size: 18px;
+        }
+        .inforPerson h3{
+            
+            font-size: 24px;
+        }
+
+        @media only screen and (max-width: 820px) {
+
+            .intro{
+                margin:20px 0;
+                
+            }
+
+  }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>About us</h1>
+        <h5>Một số thông tin giới thiệu về chúng tôi.</h5>
+        <h5>Để các bạn biết chúng tôi là ai và chúng tôi đang làm gì.</h5>
+    </header>
+    <main>
+        <div class="myIntro" id="myIntro">
+            <h3>Our Team</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="intro intro-1">
+                            <div class="imgPerson">
+                                <img src="img/img1.jpg">
+                            </div>
+                            <div class="inforPerson">
+                                <h3>Ms. Thúy Trần</h3>
+                                <h5>CEO & Founder</h5>
+                                <h4>thang.nguyen@example.com</h4>
+                                <h4>Người sáng lập</h4>
+                            </div>
+                            <div class="contactPerson">
+                                <button onclick="location.href='form.html';" class="button button1">Liên hệ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="intro intro-2">
+                            <div class="imgPerson">
+                                <img src="img/img2.jpg">
+                            </div>
+                            <div class="inforPerson">
+                                <h3>Mr. Thắng Nguyễn</h3>
+                                <h5>CIO</h5>
+                                <h4>thang.nguyen@example.com</h4>
+                                <h4>Giám đốc IT</h4>
+                            </div>
+                            <div class="contactPerson">
+                                <button onclick="location.href='form.html';" class="button button2">Liên hệ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="intro intro-3">
+                            <div class="imgPerson">
+                                <img src="img/img3.jpg">
+                            </div>
+                            <div class="inforPerson">
+                                <h3>Mr. Hoàng Mai</h3>
+                                <h5>CTO</h5>
+                                <h4>thang.nguyen@example.com</h4>
+                                <h4>Giám đốc công nghệ</h4>
+                            </div>
+                            <div class="contactPerson">
+                                <button onclick="location.href='form.html';" class="button button3">Liên hệ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

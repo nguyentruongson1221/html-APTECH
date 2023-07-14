@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+ 
+body{
+    background-color: red;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
